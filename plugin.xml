@@ -19,7 +19,10 @@
             </feature>
         </config-file>
  
-        <source-file src="src/android/com/app47/pgplugin/App47PGPlugin.java" target-dir="src/com/app47/pgplugin" />      
+        <source-file src="src/android/com/app47/pgplugin/App47PGPlugin.java" target-dir="src/com/app47/pgplugin" />  
+        <lib-file src="src/android/com/app47/libs/AndroidAgent-1.9.1.jar" /> 
+        <lib-file src="src/android/com/app47/libs/android-support-v4.jar" />
+        
      </platform>   
 
      <platform name="ios">    
