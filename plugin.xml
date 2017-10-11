@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
  
-<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0" id="com.app47.plugin" version="6.0.1">
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0" id="com.app47.plugin" version="6.0.2">
     <name>App47 Agent Plugin for Cordova/PhoneGap</name>
     <description>App47 Agent Plugin</description>
     <license>MIT</license>
@@ -20,7 +20,7 @@
         </config-file>
  
         <source-file src="src/android/com/app47/pgplugin/App47PGPlugin.java" target-dir="src/com/app47/pgplugin" />  
-        <lib-file src="src/android/com/app47/libs/AndroidAgent-1.9.3.jar" /> 
+        <lib-file src="src/android/com/app47/libs/AndroidAgent-1.9.4.jar" /> 
         <lib-file src="src/android/com/app47/libs/android-support-v4.jar" />
         
      </platform>   
